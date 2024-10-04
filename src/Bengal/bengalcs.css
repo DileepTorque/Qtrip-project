@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 3px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home{
+    width: 600px;
+    /* border: 3px solid brown; */
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.navib{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(248,249,250);
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    
+}
+li{
+    display: inline;
+}
+#qtrip{
+  position: absolute;
+  left:  30px;
+  font-size: 20px;
+  border: rgb(52, 2, 2) 2px solid;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+button{
+    width: 108px;
+    height: 42px;
+    color: #ffffff;
+   font-size: 18px;
+   border-radius: 4px;
+   border: none;
+    background-color: #F19537;
+    margin: 0px 36px 0px 0px;
+    padding: 10px 20px;
+      /* border: 3px solid brown; */
+}
+#orange{
+        color: #F19537;
+    }
+.explore{
+    width: 693px;
+    height: 43px;
+    color: #212529;
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 0px 8px;
+    position: relative;
+    left: 100px;
+    
+}
+p{
+    width: 696px;
+    height: 37px;
+    color: #212529;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+    position: relative;
+    left: 100px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.Filters{
+    width: 1116px;
+    height: 80px;
+    color: #212529;
+    padding: 20px 0px ;
+    display: flex;
+    justify-content: center;
+}
+.mainall{
+/* border: #F19537 3px solid; */
+position: relative;
+top: 100px;
+}
+/* .fil{
+    font-size: 20px;
+    color: #212529;
+    width:45px;
+    height: 26px;
+   
+} */
+#box{
+    width: 207px;
+    height: 28px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    position: relative;
+    left: 170px;
+    /* border: #F19537 3px solid; */
+
+}
+#fil1{
+    font-size: 20px;
+    color: #212529;
+    position: absolute;
+    left: 110px;
+}
+#fil2{
+    font-size: 20px;
+    color: #212529;
+    position: relative;
+    left: 60px;
+    
+}
+#fil3{
+    font-size: 20px;
+    color: #212529;
+    position: relative;
+    left: 100px;
+}
+#fil4{
+    font-size: 20px;
+    color: #212529;
+    position: relative;
+    left: 180px;
+}
+#frstbtn{
+    background-color: #ffffff;
+    color: #212529;
+    width: 204px;
+    height: 37px;
+    font-size: 14px;
+    padding: 6px 12px ;
+    border: 2px solid #212529;
+    position: relative;
+    left: 90px;
+    
+}
+#scndbtn{
+    background-color: #ffffff;
+    color: #212529;
+    width: 204px;
+    height: 37px;
+    font-size: 14px;
+    padding: 6px 12px ;
+    /* border: 2px solid #212529; */
+    position: relative;
+    left: 120px;
+}
+.Bnglr{
+    display: flex;
+    /* border: #F19537 3px solid; */
+    position: relative;
+    top: 220px;
+    left: 80px;
+    width: 1360px;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tripimg{
+    width: 261px;
+    height: 263px;
+    border-radius: 8px;
+  
+    /* border: #212529 solid 3px ; */
+}
+.bngcard{
+    /* border:solid red 3px; */
+    border-radius: 8px;
+    height: 350px ;
+    width: 261px;
+    box-shadow: 2px 2px 2px 2px #a6adb4;
+    margin: 0px 0px 24px;
+    padding: 0px 12px;
+    font-size: 16px;
+  
+
+}
+.linking{
+    text-decoration: none;
+}
+.coroimages{
+    height: 500px;
+    width: 200px;
+}
+#parag{
+    width: 800px;
+    height: 53  0px;
+    font-size: 16px;
+    border: 3px solid red;
+}
+#SubBengCards-2{
+    display: flex;
+    border: solid red 2px;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* justify-content: space-around; */
+    padding: 110px 0px 0px 85px;
+}
+
+#image-axious{
+    /* border: solid red; */
+    height: 252px;
+    width: 304px;
+ 
+}
+#cards-border{
+border: solid 2px gainsboro;
+height: 340PX;
+border-radius: 7PX;
+}
+#pricetag{
+ position: relative;
+ bottom: 17px;
+ margin-left: 87%;
+ color: red;
+ font-family: sans-serif;
+
+}
+#Sub-btns{
+width: 153px;
+height: 34px;
+position: absolute;
+margin-left: 165px;
+margin-top: 10px;
+background-color: rgb(255, 145, 0);
+color: white;
+border-radius: 15px 0px 0px 15px;
+font-family: sans-serif;
+font-size: larger;
+border: none;
+
+}
+#Names-beng{
+font-family: sans-serif;
+font-size: large;
+font-weight: 600;
+}
